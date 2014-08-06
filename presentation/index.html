@@ -20,6 +20,12 @@
 		<!-- For syntax highlighting -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
 
+		<style>
+			.reveal .slide-background{
+				background-size: contain;
+			}
+		</style>
+
 		<!-- If the query includes 'print-pdf', include the PDF print sheet -->
 		<script>
 			if( window.location.search.match( /print-pdf/gi ) ) {
@@ -43,24 +49,83 @@
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
 				<section>
-					<h1>Introduction to WC</h1>
-					<h3>HTML Presentations Made Easy</h3>
+					<h1>Introduction to Karma.js</h1>
 					<p>
-						<small>Created by <a href="http://hakim.se">Hakim El Hattab</a> / <a href="http://twitter.com/hakimel">@hakimel</a></small>
+						<small>Created by</small>
 					</p>
+					<div>
+						<small><a href="#">David Boyne</a> / <a href="http://twitter.com/hakimel">@boyney123</a> </small>
+					</div>
+					<div>
+						<small><a href="#">Anton L</a> </small>
+					</div>
+				</section>
+
+				<section data-background="./imgs/hands.jpg">
+					<aside class="notes">
+						Who writes JavaScript?
+						Who tests their JavaScript?
+					</aside>
+				</section>
+
+				<section data-background="./imgs/testing.jpg">
+					<aside class="notes">
+						If you have written JavaScript I can almost bet my life you have tested it
+						Just differnt versions of testing. Manual or Automated.
+					</aside>
 				</section>
 
 				<section>
-					<h2>Heads Up</h2>
-					<p>
-						reveal.js is a framework for easily creating beautiful presentations using HTML. You'll need a browser with
-						support for CSS 3D transforms to see it in its full glory.
-					</p>
-
-					<aside class="notes">
-						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
-					</aside>
+					<h2>Why Test?</h2>
+					<ul>
+						<li class="fragment">Confidence our code works</li>
+						<li class="fragment">Refactoring</li>
+						<li class="fragment">Dont replicate issues</li>
+						<li class="fragment">Better design</li>
+						<li class="fragment">And lots more...</li>
+					</ul>
 				</section>
+
+				<section>
+					<h2>Benefits of Test our web applications?</h2>
+				</section>
+
+				<section>
+					<h2>History of Karma</h2>
+				</section>
+
+				<section>
+					<h2>Why use Karma</h2>
+				</section>
+
+				<section>
+					<h2>Existing Solutions</h2>
+				</section>
+				
+				<section>
+					<h2>How does Karma work?</h2>
+				</section>
+
+				<section>
+					<h2>Integration to CI server</h2>
+				</section>
+
+				<section>
+					<h2>Who uses Karma?</h2>
+				</section>
+
+				<section>
+					<h2>Future of Karma</h2>
+				</section>
+
+				<section>
+					<h2>Karma Quotes</h2>
+				</section>
+
+				<section>
+					<h2>Further reading</h2>
+				</section>
+
 
 				<!-- Example of nested vertical slides -->
 				<section>
@@ -371,7 +436,7 @@ function linkify( selector ) {
 				center: true,
 
 				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
-				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+				transition: 'none', // default/cube/page/concave/zoom/linear/fade/none
 
 				// Parallax scrolling
 				// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
