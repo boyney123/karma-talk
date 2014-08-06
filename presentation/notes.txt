@@ -1,0 +1,78 @@
+15/20 Minutes
+
+* Why should we test JavaScript?
+	- JS is everywhere on the web now. And with browsers 		becoming more 	powerful we add more javascript to our 		applications. Its important 	we test our JavaScript so we 		dont break our code or our 	applications
+	- JavaScript has evolved very fast and web apps are everywhere
+	- Once we fix bugs we know they are resolved and we dont replicate it (so it doesnt come up again)
+	- Refactoring - Our apps are evolving and always changing (requirements) its important that we should always be refacoring our code to keep it simple and clean
+		Testing our JavaScript gives us the confidence to refactor as our tests should be testing our functionality. (Keeps the architecture fresh)
+	- In gernal testing forces devs into a bettern design  
+	
+
+ 
+* Testing JavaScript
+	- Who currently tests JS code?
+	- I would say everyboday that has written JavaScript has tested JavaScript. Its just how 		we go about doing it (some manual testing and some automated testing using testing frameworks)
+	- What tools are currently out there?
+
+* How did Karma come along?
+	- Karma started as somebodys final year work
+	- Why did karma come along and what problems does it solve?
+		- Workflow
+			- Designer draws a line on paper and can instanly see if he likes it not.
+			- Issues with workflow. Devs have to open browsers to test...
+			- This can become painful. Change in Code > Test in Browser > Debug in browser > and Repeat.. (What a pain in the ass)
+		- Fast
+		- Impoves producitivty
+		- Using DI allows use to test modular components of our application without initstanisating the rest of our application ( which is expensive)
+		- Allows the user to test without distracting the dev (using 			node/phantomjs)
+		- (Show diagram of the differnce between karma and other tools)
+	- "In Order to be creative and producitve a quick feedback is required.
+
+* Why Karma?
+	- Slow testing suites and feedback loops are killing creativity. As a dev we should focus on coding not swapping between envs.
+	- AngularJS principles guide you to write maintainble small modules. Karma follows these princibles and allows us to test these modules easily. (meaning both go really 		well hand in hand)
+	- Karma allows you to test on any browser or any device 
+	- Workflow
+		- Tests are triggered everytime you save a file, increaing the producitivty
+	- The core idea is to get a continous feedback from tests, with minimal distraction to the dev
+	- Karma is agnostic of any text editor or IDE. Meaning it doesnt need support from any IDE or text editor.
+	- All the features of Karma share a single goal - A seamless workflow
+		- which provides fast and relaible results without distracting the developer. This is the core new feature that Karama brings into web Dev
+	- Allows us to test modular code. This loose coupling is essential for testing. Cos testing code is really about ability to instantiate an object stand-alone without the 	rest of the environment (mocking etc)
+	- People use it everyday and it improves workflow
+
+
+* How it works? - Architecture
+	- Sever and Clients diagram. 
+	- easier to add clients without chaning the server. We can run our tests on multiple devices.
+	- Karma is simplement in JS. the server runs on Node.js and the client part runs in a web browser (Could be chrome, phantom, etc)
+		- Node as the server because
+			- It runs on all major platforms
+			- All codebase in 1 language (JavaScript)
+			- Very productive env
+
+* CI serveer
+	- Karma intregrates with CI servers really nice. It produces test results in XML.
+
+* Exising Solutions
+	- Seliumum
+		- Great for E2E testing and is the most mature as its been around the longest.
+	- Qunit and Jasmine
+		- Both good but comes with HTML runner which it needs out the box to run the tests (workflow issues)
+	- Show graph or table of all the differnt test frameworks and their differnces (in the guys final year project 3.1)
+	
+
+* Who uses Karma?
+	- Youtube, Google, LinkedIn , Spotify and Comparethemarket
+
+* Futhur reading
+	- The guys final year project
+	- The tests in the karma project (document whats going on)
+
+* Future of Karma
+	- Karma is a open source project and has X and Y issues and pull requests on it. 
+	- Its very active
+
+* Quotes from Karma
+	- What people are saying
