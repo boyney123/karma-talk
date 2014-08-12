@@ -83,3 +83,19 @@
 	* give it the files you want and away you go.
 
 	* it('Should be fast')
+	
+	
+	
+	
+	
+	-------------------------
+	
+Requirements for Karma
+	- it('Should be fast')
+	- it('Should increase workflow')
+	- it('Should ....')
+	
+	- Run 1600 tests in about 2.5 seconds....
+	
+	- Not a testing framework but a test runner. You can still use other testing FW with it...jasmine for example
+	- Your karma files opens up browser then excustes the files
