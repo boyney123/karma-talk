@@ -76,3 +76,10 @@
 
 * Quotes from Karma
 	- What people are saying
+
+	--------------------------------
+
+	* Getting setup with Karma is easy, just install karma-cli and karma init
+	* give it the files you want and away you go.
+
+	* it('Should be fast')
