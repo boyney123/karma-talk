@@ -99,3 +99,45 @@ Requirements for Karma
 	
 	- Not a testing framework but a test runner. You can still use other testing FW with it...jasmine for example
 	- Your karma files opens up browser then excustes the files
+
+
+
+
+
+
+
+
+
+	------------------------------------------
+
+ What to bring to the day
+ - Notes for event
+ - Slides and laptop
+ - meerkats
+ - projector
+ - stickers?
+ - books?
+ - banners
+
+ ---------------------------------------------
+ Notes to say:
+
+ - Welcome to WTH.
+ 	- What a year it has been for WTH.
+ 	- Previous events
+ 		- Angular and Knockout
+ 		- Speaker event started last October
+ 	- Our own branding now and t-shirts coming with stickers
+ - Second speaker event why Angular based?
+ - Alex talk about APeterborough
+ - How to win the books?
+ 	- #whatthehtml?
+ - Start talks (J, DA, Break, Karl)
+ 	- Introduce each person and a small bio about them.
+ - Giveaway on books
+ - Thanks for coming
+ 	- Sign up for lighting talks 
+ 		- Looking for more speakers
+ 		- If you have anything you want to talk about/ passion about?
+ 	- Future events (Agile peterborough and WShop coming up)
+ 
