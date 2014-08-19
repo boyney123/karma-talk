@@ -1,0 +1,1 @@
+karmaDemo.app = angular.module('app',[]);
